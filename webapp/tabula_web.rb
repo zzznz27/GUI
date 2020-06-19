@@ -596,7 +596,7 @@ Cuba.define do
                                  elsif c['extraction_method'] == "lattice"
                                    "--lattice"
                                   elsif c['extraction_method'] == "wordwrapped"
-                                    "--wordwrapped"
+                                    "--wordwrapcheck"
                                  else
                                       ' ' #Non-empty string
                                  end
